@@ -1,0 +1,5 @@
+{
+  "name": "LeafSyncServer",
+  "version": "0.1.0",
+  "description": "A leaf sync server used by Incremental Social with an authenticated websocket and s3 storage adapter."
+}

@@ -1,0 +1,7 @@
+services:
+  syncserver:
+    build: "https://github.com/thepaperpilot/LeafSyncServer.git"
+    ports:
+      - "80:8000"
+    volumes:
+      - ./data:/data
