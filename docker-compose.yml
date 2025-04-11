@@ -5,3 +5,10 @@ services:
       - "80:8000"
     volumes:
       - ./data:/data
+    environment:
+      - PORT=8000
+      - BUCKET=
+      - ACCESS_KEY_ID=
+      - SECRET_ACCESS_KEY=
+      - REGION=
+      - ENDPOINT=
