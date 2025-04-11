@@ -36,11 +36,9 @@ if (import.meta.main) {
     startServer({
       port,
       bucket,
-      {
-        credentials: { accessKeyId, secretAccessKey },
-        region,
-        endpoint
-      }
+      credentials: { accessKeyId, secretAccessKey },
+      region,
+      endpoint
     });
   }
 }
