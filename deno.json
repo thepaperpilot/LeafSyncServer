@@ -1,5 +1,4 @@
 {
-  "nodeModulesDir": "auto",
   "imports": {
     "@aws-sdk/client-s3": "npm:@aws-sdk/client-s3",
     "@muni-town/leaf": "jsr:@muni-town/leaf@^0.2.0-preview.13",
