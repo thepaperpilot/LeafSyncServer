@@ -1,5 +1,11 @@
 {
+  "nodeModulesDir": "auto",
   "imports": {
-    "@muni-town/leaf": "jsr:@muni-town/leaf@^0.2.0-preview.13"
+    "@aws-sdk/client-s3": "npm:@aws-sdk/client-s3",
+    "@muni-town/leaf": "jsr:@muni-town/leaf@^0.2.0-preview.13",
+    "authenticatedSyncServer": "https://raw.githubusercontent.com/thepaperpilot/AuthenticatedLeafSyncServer/29c23bd972007687e330f64b388d30398900e225/src/index.ts",
+    "bcrypt": "npm:bcryptjs",
+    "s3StorageAdapter": "https://raw.githubusercontent.com/thepaperpilot/LeafS3StorageAdapter/3b33339fc447e43b11cead55c443075e057f43ad/src/index.ts",
+    "itty-router": "npm:itty-router"
   }
 }
