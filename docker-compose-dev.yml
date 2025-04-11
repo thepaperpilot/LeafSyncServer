@@ -1,0 +1,9 @@
+services:
+  syncserver:
+    build: .
+    ports:
+      - "80:8000"
+    volumes:
+      - ./data:/data
+    environment:
+      - USERS_DB_FILE=/data/users.db
